@@ -1,0 +1,50 @@
+{
+  "name": "project-client-team-the-falcons",
+  "version": "1.0.0",
+  "description": "Event Management Application - Full code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "server": "node index.js",
+    "client": "cd client && npm start",
+    "client-install": "cd client && npm install",
+    "preinstall": "npm i concurrently",
+    "postinstall": "npm run client-install",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2020-Winter-ITE-5430-A/project-client-team-the-falcons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "@sendgrid/mail": "^6.5.5",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.1.0",
+    "config": "^3.2.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.1",
+    "multer": "^1.4.2",
+    "node-geocoder": "^3.27.0",
+    "paypal-rest-sdk": "^1.8.1",
+    "react-spinkit": "^3.0.0",
+    "react-toastify": "^5.5.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "bugs": {
+    "url": "https://github.com/2020-Winter-ITE-5430-A/project-client-team-the-falcons/issues"
+  },
+  "homepage": "https://github.com/2020-Winter-ITE-5430-A/project-client-team-the-falcons#readme"
+}

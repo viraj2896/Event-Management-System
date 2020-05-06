@@ -1,0 +1,8 @@
+{
+  "mongoDBConnectURI": "mongodb+srv://nilay:8490910537nP@cluster1-nsr6g.mongodb.net/MERN_PROJECT?retryWrites=true&w=majority",
+  "jwtsecret": "secret",
+  "myEmail": "patelnilay33@gmail.com",
+  "paypal_clientId": "AVQqA6DRtyWHPE7tbkQHhWEPS6USjBclWLVpAOd1BvekZpbPbby-ioi-I0XZodAklRH7rMY_w3mOThWn",
+  "paypal_secret": "EPbVA43J9diqGjIaA2fyqIL6Jkt-UCjZ1ZR6t9ROc2WC3EzZa4dipamxTTanyP_rI-iE5PLMd-sMIZ3a",
+  "google_maps_api_key": "AIzaSyBLUwYK4ZgRrDerHfghrG9DUoZL13V_dwQ"
+}

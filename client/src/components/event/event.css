@@ -1,0 +1,59 @@
+.AddTopMargin {
+    margin-top: 20px;
+}
+
+.AddBottomMargin {
+    margin-bottom: 20px;
+}
+
+.LeftAlign {
+    text-align: left;
+}
+
+.nopadding {
+    padding-right: unset !important;
+    padding-left: unset !important;
+}
+
+.card {
+    box-shadow: 0 0 10px #ccc;
+}
+
+.HeadingFont {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.NormalFont {
+    font-size: 22px;
+}
+
+.defaultTextBox {
+    position: relative;
+    outline: none;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.DateTimePadding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.RowTopMargin {
+    margin-top: 20px;
+}
+
+.CardBodyLeftAlign {
+    text-align: left;
+}
+
+.FormBackground {
+    background-color: white;
+}
+
+.pointer_cursor {
+    cursor: pointer;
+}
